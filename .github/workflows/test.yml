@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: extract build.zip
-        run: unzip dist/build.zip -d ~/domains/github_actions
+        run: unzip -o dist/build.zip -d ~/domains/github_actions
